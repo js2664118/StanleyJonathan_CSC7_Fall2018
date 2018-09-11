@@ -77,5 +77,5 @@ void dblcard(int debit[],int size){
     cout<<" = "<<sum<<endl;
     total=(sum*9)%10;
     if ((total+sum)%10==0)cout<<"This is a valid card"<<endl;
-    cout<<total<<endl;
+    cout<<"Check digit = "<<total<<endl;
 }
